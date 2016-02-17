@@ -15,9 +15,9 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
+  <body class="container">
+    <div class="row wrapper-masthead">
+      <div class="col-md-12">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -34,12 +34,14 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+    <div id="main" role="main" class="row">
+      <div class="col-md-10 col-md-offset-1">
+        {{ content }}
+      </div>
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
+    <div class="wrapper-footer row">
+      <div class="col-md-12">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
