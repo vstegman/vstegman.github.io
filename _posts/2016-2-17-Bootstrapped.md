@@ -4,6 +4,6 @@ title: Bootstrapped
 tags: markdown, css
 ---
 
-##Can you bootstrap this? {: .text-danger}
+##<span class="text-danger">Can you bootstrap this?</span>
 
-What about a paragraph? {: .text-primary}
+<span class="text-primary">What about a paragraph?</span>
